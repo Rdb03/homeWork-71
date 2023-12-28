@@ -1,0 +1,12 @@
+.dish-image {
+  width: 200px;
+  height: 200px;
+  margin: 40px 0;
+}
+
+.btn-form {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

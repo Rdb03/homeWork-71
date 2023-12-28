@@ -1,0 +1,62 @@
+.dishes-header {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-dish-link {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dish-div {
+  border: 5px solid black;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.dish-photo {
+  width: 200px;
+  height: 230px;
+  margin: auto 20px;
+  border: 5px solid black;
+}
+
+.dish-info {
+  font-size: 30px;
+}
+
+.dishes-btn-div {
+  margin: 0 40px 0 auto;
+}
+
+.dish-btn {
+  border: 1px solid black;
+  margin: 0 8px;
+  height: 40px;
+  width: 100px;
+  box-sizing: border-box;
+  color: white;
+  font-weight: bold;
+}
+
+.edit {
+  background-color: darkorange;
+  padding: 10px 35px;
+  color: black;
+  text-decoration: none;
+}
+
+.delete {
+  background: #ea4949;
+}
