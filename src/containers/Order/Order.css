@@ -1,0 +1,76 @@
+.you-order-div {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-main-div {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 30px;
+    margin: 40px auto;
+    height: 600px;
+    overflow-y: auto;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-btn {
+    width: 200px;
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    background-color: #db9604;
+}
+
+.order-btn:active {
+    background-color: #7d530c;
+}
+
+.order-bold {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.order-bold.price {
+    margin-right: 10px;
+}
+
+.order-div-bottom {
+    margin-top: auto;
+}
+
+.order-btn.cancel {
+    background-color: #ea4949;
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 9px 50px;
+}
+
+.order-btn.cancel:hover {
+    background-color: #ca3f3f;
+}
+
+.order-btn.cancel:active {
+    background-color: #751f1f;
+}

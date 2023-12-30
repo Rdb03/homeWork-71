@@ -7,16 +7,16 @@ export const fetchDishes = createAsyncThunk<IApiDish[]>(
   async () => {
     const response = await axiosApi.get<IApiDishesList | null>('pizza/dishes.json');
     const contactsResponse = response.data;
-    let contacts: IApiDish[] = [];
+    let dishes: IApiDish[] = [];
 
     if (contactsResponse) {
-      contacts = Object.keys(contactsResponse).map((id) =>({
+      dishes = Object.keys(contactsResponse).map((id) =>({
         ...contactsResponse[id],
         id
       }));
     }
 
-    return contacts;
+    return dishes;
   });
 
 export const createDish = createAsyncThunk<void, ApiDish>(
@@ -58,3 +58,4 @@ export const updateDish = createAsyncThunk<void, UpdateDishParams>(
         await axiosApi.put(`/pizza/dishes/${id}.json`, dish);
     }
 );
+

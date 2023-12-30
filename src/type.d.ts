@@ -16,3 +16,19 @@ export interface IDishesMutation {
 export interface IApiDishesList {
   [key: string]: IApiDish;
 }
+
+export interface CartDish {
+  dish: IApiDish;
+  amount: number;
+}
+
+export interface IApiOrdersLIst {
+  [key: string]: CartDish;
+}
+
+export interface IOrdersMutation {
+  orderID: string,
+  amount: number,
+}
+
+

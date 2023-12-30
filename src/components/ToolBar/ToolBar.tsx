@@ -2,7 +2,6 @@ import {NavLink} from 'react-router-dom';
 import './ToolBar.css';
 
 const ToolBar = () => {
-
   const toolBarTitle = () => {
     if (location.pathname.startsWith( '/admin' ))  {
       return (
